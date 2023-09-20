@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Rufffile {
     public static void main(String[] args) {
 
-        // // sum of 2 numbers
+        // // sum 
         // int Sum1 = 100 + 50;
         // int sum2 = Sum1 + 250;
         // int sum3 = sum2 + sum2;
