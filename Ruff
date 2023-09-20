@@ -1,0 +1,328 @@
+import java.util.Scanner;
+
+public class Rufffile {
+    public static void main(String[] args) {
+
+        // // sum of 2 numbers
+        // int Sum1 = 100 + 50;
+        // int sum2 = Sum1 + 250;
+        // int sum3 = sum2 + sum2;
+        // System.out.println(sum3);
+
+        // int x = 10;
+        // int y = 20;
+        // System.out.println(x + y);
+
+        // // // Boolean(true or false)
+        // int x = 5;
+        // int y = 6;
+        // System.out.println(x < y);
+
+        // // Math min/max,square root,random value(between 0.0 to 1.0),random
+        // value(beteen
+        // // your range)
+        // System.out.println(Math.max(5, 11));
+        // System.out.println(Math.min(5, 11));
+        // System.out.println(Math.sqrt(49));
+        // System.out.println(Math.random());
+        // System.out.println(Math.random() * 101);
+
+        // Java If-else statement
+        // int Height = 20;
+        // if (Height < 18) {
+        // System.out.println("You are not adult.");
+        // } else if (Height < 10) {
+        // System.out.println("You are a adult.");
+        // } else {
+        // System.out.println("Okay,Okay");
+        // }
+
+        // java switch
+        // Scanner sc = new Scanner(System.in);
+        // System.out.print("write the value: ");
+        // int num = sc.nextInt();
+        // switch (num) {
+        // case 1:
+        // System.out.println("Monday");
+        // break;
+        // case 2:
+        // System.out.println("Tuesday");
+        // break;
+        // case 3:
+        // System.out.println("Wednesday");
+        // break;
+        // case 4:
+        // System.out.println("Thursday");
+        // break;
+        // case 5:
+        // System.out.println("Friday");
+        // break;
+        // case 6:
+        // System.out.println("saturday");
+        // break;
+        // case 7:
+        // System.out.println("Sunday");
+        // break;
+        // }
+
+        // Scanner sc = new Scanner(System.in);
+        // System.out.print("write the time in minutes: ");
+        // int time = sc.nextInt();
+        // int Hour = time / 60;
+        // int minute = time % 60;
+        // System.out.println("Hours are--> " + Hour);
+        // System.out.println("Minutes are--> " + minute);
+
+        // While loop
+        // int i = 0;
+        // while (i < 6) {
+        // System.out.println(i);
+        // i++;
+        // }
+
+        // do/while loop
+        // int i = 0;
+        // do {
+        // System.out.println(i);
+        // i++;
+        // } while (i < 6);
+
+        // for loop
+        // Example 1
+        // for (int i = 0; i < 6; i++) {
+        // System.out.println(i);
+        // }
+
+        // Example 2
+        // for (int i = 0; i < 6; i = i + 2) {
+        // System.out.println(i);
+        // }
+
+        // Nested loop==> The inner loop will be executed one time each iteration of the
+        // outer loop
+        // for (int i = 1; i <= 2; i++) {
+        // System.out.println("outer:" + i);
+        // for (int j = 1; j <= 4; j++) {
+        // System.out.println(" " + "inner:" + j);
+        // }
+        // }
+
+        // Java Break and Continue
+        // Ex.1
+        // for (int i = 1; i < 10; i++) {
+        // if (i == 7) {
+        // break;
+        // }
+        // System.out.println(i);
+        // }
+
+        // Ex.2
+        // for (int i = 1; i <= 10; i++) {
+        // if (i == 7) {
+        // continue;
+        // }
+        // System.out.println(i);
+        // }
+
+        // Scanner sc = new Scanner(System.in);
+        // System.out.print("Enter a value:");
+        // int n = sc.nextInt();
+
+        // for (int i = 1; i <= n; i++) {
+        // System.out.println(i);
+        // }
+
+        // Arrays
+        // int marks[] = new int[3];
+        // marks[0] = 97;
+        // marks[1] = 98;
+        // marks[2] = 95;
+
+        // for (int i = 0; i < 3; i++) {
+        // System.out.println(marks[i]);
+        // }
+
+        // Scanner sc = new Scanner(System.in);
+        // System.out.println("Enter the value:");
+        // int n = sc.nextInt();
+
+        // for (int i = -n; i <= n; i = i + 1) {
+        // System.out.println(i);
+        // }
+
+        // Q.Take an array as input from the user.search for a given number x and print
+        // the index at which x occurs?
+        // Scanner sc = new Scanner(System.in);
+        // int size = sc.nextInt();
+        // int numbers[] = new int[size];
+        // // input
+        // for (int i = 0; i < size; i++) {
+        // numbers[i] = sc.nextInt();
+        // }
+        // int x = sc.nextInt();
+        // // Output
+        // for (int i = 0; i < numbers.length; i++) {
+        // if (numbers[i] == x) {
+        // System.out.println("x is found at index:" + i);
+        // }
+        // }
+
+        // 2D Arrays
+        // Scanner sc = new Scanner(System.in);
+        // System.out.print("NO.of Rows: ");
+        // int rows = sc.nextInt();
+        // System.out.print("No.of Columns: ");
+        // int column = sc.nextInt();
+        // System.out.println("Give the numbers for input-->");
+
+        // int[][] numbers = new int[rows][column];
+
+        // // input
+        // // rows
+        // for (int i = 0; i < rows; i++) {
+        // // columns
+        // for (int j = 0; j < column; j++) {
+        // numbers[i][j] = sc.nextInt();
+        // }
+        // }
+
+        // // output
+        // for (int i = 0; i < rows; i++) {
+        // // columns
+        // for (int j = 0; j < column; j++) {
+        // System.out.print(numbers[i][j] + " ");
+        // }
+        // System.out.println();
+        // }
+
+        // String
+        // 1.For single word only
+        // Scanner sc = new Scanner(System.in);
+        // System.out.println("What is your name :");
+        // String name = sc.next();
+        // System.out.println("Your name is: " + name);
+
+        // 2. for whole sentence
+        // Scanner sc = new Scanner(System.in);
+        // String name = sc.nextLine();
+        // System.out.println("Your name is: " + name);
+
+        // 3. Length of world or sentence
+        // Scanner sc = new Scanner(System.in);
+        // String name = sc.nextLine();
+        // System.out.println(name.length());
+
+        // 4. Access characters of a string
+        // Scanner sc = new Scanner(System.in);
+        // String name = sc.nextLine();
+        // for (int i = 0; i < name.length(); i++) {
+        // System.out.println(name.charAt(i));
+        // }
+
+        // 5. Compare 2 strings
+        // String name1 = "Aniket";
+        // String name2 = "Sanket";
+
+        // if (name1 == name2) {
+        // System.out.println("They are the same strings.");
+        // } else if (name1 != name2) {
+        // System.out.println("They are not equal.");
+        // }
+
+        // 6. Substrings
+        // String name = "Aniket sable";
+        // System.out.println(name.substring(7, 12));
+
+        // 7. parseInt (string---->integer)
+        // String str = "123";
+        // int number = Integer.parseInt(str);
+        // System.out.println(number);
+
+        // 8. string method of string class (integer---->string)
+        // int number = 12343575;
+        // String str = Integer.toString(number);
+        // System.out.println(str.length());
+
+        // strings are immutable means unchaning over time or unable to chnage
+
+        // // StringBuilder
+        // StringBuilder sb = new StringBuilder("Aniket");
+        // System.out.println(sb);
+
+        // // char at index
+        // System.out.println(sb.charAt(1));
+
+        // // Set char at index
+        // sb.setCharAt(5, 's');
+        // System.out.println(sb);
+
+        // // insert character
+        // System.out.println(sb.insert(0, 'D'));
+
+        // // delete character
+        // System.out.println(sb.delete(0, 2));
+
+        // // append----> add character at last
+        // sb.append("x");
+        // sb.append("y");
+        // sb.append("Z");
+        // System.out.println(sb);
+
+        // Reverse string by using string builder and using for loop and set character
+        // StringBuilder sb = new StringBuilder("Aniket Sable");
+
+        // for (int i = 0; i < sb.length() / 2; i++) {
+        // int front = i;
+        // int back = sb.length() - 1 - i;
+
+        // char frontchar = sb.charAt(front);
+        // char backchar = sb.charAt(back);
+
+        // // set character method
+        // sb.setCharAt(front, backchar);
+        // sb.setCharAt(back, frontchar);
+        // }
+        // System.out.println(sb);
+
+        // Bit manipulation
+        // 1.Get Bit
+        // int n = 5; // 0101
+        // int pos = 2;
+        // int bitMask = 1 << pos;
+
+        // if ((bitMask & n) == 0) {
+        // System.out.println("Bit was zero");
+        // } else {
+        // System.out.println("Bit was one");
+        // }
+
+        // 2.Set bit
+        // int n = 5; // 0101
+        // int pos = 1;
+        // int bitMask = 1 << pos;
+        // System.out.println(bitMask | n);
+
+        // 3.Clear bit
+        // int n = 5; // 0101
+        // int pos = 2;
+        // int bitMask = 1 << pos;
+        // System.out.println(~bitMask & n);
+
+        // 4.Update bit
+        // System.out.println("Give Operation in the form of 0 and 1: ");
+        // Scanner sc = new Scanner(System.in);
+        // int operation = sc.nextInt();
+        // // if operation = 0 , set bit
+        // // else operation = 1 , Clear bit
+        // int n = 5; // 0101
+        // int pos = 2;
+        // int bitMask = 1 << pos;
+
+        // if (operation == 1) {
+        // System.out.println(bitMask | n);
+        // } else {
+        // System.out.println(~bitMask & n);
+        // }
+
+    }
+}
